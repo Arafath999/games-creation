@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    gap: 15px;
+    
+}
+.game-bar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+nav .youtik{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid tomato;
+    height: 30px;
+    font-weight: 20px;
+    padding: 0px 15px;
+    background: rgb(231, 105, 105);
+    border-radius: 15px;
+}
+.sec-one{
+    display: flex;
+    height: 100%;
+    weight: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 300px;
+    margin-left: 30px;
+    background: #FFF;
+}
+
+
+.goat{
+    font-weight: 900;
+    font-size: 65px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play{
+    font-weight: 800;
+    font-size: 30px;
+}
+.btn-primary{
+    border: 1px solid tomato;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: pink;
+
+}
+.btn-secondary{
+    border: 0px solid tomato;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: blueviolet;
+
+}
