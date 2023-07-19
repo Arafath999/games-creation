@@ -66,6 +66,7 @@ nav .youtik{
     padding: 7px;
     border-radius: 10px;
     background-color: pink;
+    
 
 }
 .btn-secondary{
@@ -74,4 +75,55 @@ nav .youtik{
     border-radius: 10px;
     background-color: blueviolet;
 
+}
+.sec-two{
+    display: flex;
+    align-items: center;
+    display: inline-flex;
+    
+}
+.games-des{
+    display: ;
+    
+}
+/* .sec-three{
+    height: 100%;
+    weight: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-img-small{
+    margin-top: -80px;
+    margin-left: 320px;
+}
+.sec-three-des{
+    margin-left: -140px;
+} */
+.sec-three{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.sec-three-img{
+    
+}
+.sec-img-small{
+    margin-left: -70px;
+    margin-bottom: -50px;
+}
+.sec-three-des{
+    margin-left: 45px;
+}
+.sec-two-half-des{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img-four-start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top:20px;
 }
