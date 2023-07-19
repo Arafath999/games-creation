@@ -109,10 +109,10 @@ nav .youtik {
 .sec-two {
     display: flex;
     align-items: center;
-    border: 1px solid tomato;
     flex-basis: 100%;
+    justify-content: center;
 
-    /* text-decoration-line: */
+    /* text-decoration-ine: */
 
 }
 
@@ -128,17 +128,20 @@ nav .youtik {
 }
 
 .sec-three-img {
-    padding-left: 150px;
+    padding-left: 200px;
+    
 }
 
 .sec-img-small {
-    margin-left: -70px;
-    margin-bottom: -50px;
+    /* left: -60px; */
+    margin-bottom: -70px;
+    /* padding-left: - */
 }
 
 .sec-three-des {
     margin-left: 45px;
     margin-top: 60px;
+    padding-right: 190px;
 }
 
 .sec-two-half-des {
@@ -307,7 +310,7 @@ footer {
     flex-direction: column;
 }
 .sec-three{
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .sec-foter{
     display: grid;
@@ -327,5 +330,8 @@ footer {
     margin-top: -40px;
     height: 130px;
     weight: 130px;
-    margin-left: 100px;
+    margin-left: 200px;
+}
+.sec-three-des{
+    padding-left: 170px;
 }
