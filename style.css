@@ -9,6 +9,7 @@ nav{
     align-items: center;
     /* width: 100%; */
     gap: 15px;
+    padding-bottom: 10px;
     
 }
 .game-bar{
@@ -43,8 +44,18 @@ nav .youtik{
     align-items: center;
     /* justify-content: center; */
     gap: 300px;
-    margin-left: 30px;
-    background: #FFF;
+    /* margin-left: 30px; */
+    background: #d3c2c2;
+    /* display: inline; */
+}
+.sec-one-des{
+    gap: 20px;
+    padding-left: 30px;
+    
+}
+.sec-one-ul{
+    gap: 20px;
+    margin-top: 15px;
 }
 
 
@@ -66,6 +77,8 @@ nav .youtik{
     padding: 7px;
     border-radius: 10px;
     background-color: pink;
+    gap: 20px;
+    margin-top: 15px;
     
 
 }
@@ -74,39 +87,32 @@ nav .youtik{
     padding: 7px;
     border-radius: 10px;
     background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 10px;
 
 }
+#p{
+   margin-top: 10px;
+}
 .sec-two{
-    display: flex;
+    isplay: flex;
     align-items: center;
     display: inline-flex;
+    /* text-decoration-line: */
     
 }
 .games-des{
     display: ;
     
 }
-/* .sec-three{
-    height: 100%;
-    weight: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sec-img-small{
-    margin-top: -80px;
-    margin-left: 320px;
-}
-.sec-three-des{
-    margin-left: -140px;
-} */
+
 .sec-three{
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
 .sec-three-img{
-    
+    padding-left: 220px;
 }
 .sec-img-small{
     margin-left: -70px;
@@ -127,3 +133,94 @@ nav .youtik{
     gap: 40px;
     margin-top:20px;
 }
+footer{
+    margin-top: 80px;
+}
+.sec-foter{
+    /* border: 1px solid tomato; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 90px;
+    margin-right: 40px;
+    background: #FFF;
+    height: auto;
+    weight: auto;
+   
+}
+.one{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 35px 0px 0px 35px;
+    
+}
+#last{
+    background: #36333d;
+    padding-top: 70px;
+    height: 100%;
+    weight: 100%;
+    margin-top: 60px;
+    color: #FFF;
+    
+}
+.last-img{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* font-size: 50px; */
+    /* font-weight: 800; */
+}
+.gamer{
+    font-size: 50px;
+    font-weight: 600;
+}
+#gamer-des{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 20px;
+}
+#gamer-icon{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    column-gap: 20px;
+
+}
+#gamer-privacy{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    color: gray;
+}
+#gamer-I{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    color: gray;
+    
+
+}
+.g{
+    font-weight: 900;
+    font-size: 65px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+}
+
